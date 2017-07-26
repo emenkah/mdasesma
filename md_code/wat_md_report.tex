@@ -1,0 +1,68 @@
+\documentclass[a4paper,10pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{capt-of}
+\usepackage{tabu}
+\usepackage{subfig}
+\usepackage[left=0.50cm, right=0.50cm, top=0.50cm, bottom=0.50cm]{geometry}
+% Title Page
+\title{}
+\author{}
+
+
+\begin{document}
+\maketitle
+
+% \begin{abstract}
+%   Abstract here
+% \end{abstract}
+
+
+\begin{table}[ht]
+\caption{Eigen DZVP 50 K}
+\centering
+\begin{tabu}to \textwidth {X[c]X[c]}
+ \includegraphics[width=80mm]{plots_output/Eigen-050inv.png}\captionof{figure}{Inversion} &\includegraphics[width=80mm]{plots_output/Eigen-050-tim.png}\captionof{figure}{timeseries of inversion}  \\
+ \includegraphics[width=80mm]{plots_output/Eigen-050-temp.png}\captionof{figure}{Temp} &\includegraphics[width=80mm]{plots_output/Eigen-050-Pot.png}\captionof{figure}{Potential} \\
+\end{tabu}
+
+\caption{Eigen DZVP 100 K}
+\centering
+\begin{tabu}to \textwidth {X[c]X[c]}
+ \includegraphics[width=80mm]{plots_output/Eigen-100inv.png}\captionof{figure}{Inversion} &\includegraphics[width=80mm]{plots_output/Eigen-100-tim.png}\captionof{figure}{timeseries of inersion}  \\
+ \includegraphics[width=80mm]{plots_output/Eigen-100-temp.png}\captionof{figure}{temp} &\includegraphics[width=80mm]{plots_output/Eigen-100-Pot.png}\captionof{figure}{Potential} \\
+\end{tabu}
+
+
+\end{table}
+
+
+\newpage
+\pagebreak
+\begin{table}[ht]
+\caption{Eigen DZVP 150 K}
+\centering
+\begin{tabu}to \textwidth {X[c]X[c]}
+ \includegraphics[width=80mm]{plots_output/Eigen-150inv.png}\captionof{figure}{Inversion} &\includegraphics[width=80mm]{plots_output/Eigen-150-tim.png}\captionof{figure}{timeseries of inersion}  \\
+ \includegraphics[width=80mm]{plots_output/Eigen-150-temp.png}\captionof{figure}{temp} &\includegraphics[width=80mm]{plots_output/Eigen-150-Pot.png}\captionof{figure}{Potential} \\
+\end{tabu}
+
+
+
+\caption{Eigen DZVP 300 K}
+\centering
+\begin{tabu}to \textwidth {X[c]X[c]}
+ \includegraphics[width=80mm]{plots_output/Eigen-300inv.png}\captionof{figure}{Inversion} &\includegraphics[width=80mm]{plots_output/Eigen-300-tim.png}\captionof{figure}{timeseries of inersion}  \\
+ \includegraphics[width=80mm]{plots_output/Eigen-300-temp.png}\captionof{figure}{temp} &\includegraphics[width=80mm]{plots_output/Eigen-300-Pot.png}\captionof{figure}{Potential} \\
+\end{tabu}
+\end{table}
+% \begin{figure}
+%   \centering
+%    \caption{\label{ref_label_overall}Overall caption}
+%   \subfloat[Caption 1]{\label{ref_label1}\includegraphics[width=0.4\textwidth]{plots_output/Eigen-050inv.png}}
+%   \subfloat[Caption 2]{\label{ref_label2}\includegraphics[width=0.4\textwidth]{plots_output/Eigen-050inv.png}}
+%  \subfloat[Caption 3]{\label{ref_label2}\includegraphics[width=0.4\textwidth]{plots_output/Eigen-050inv.png}}
+%  \subfloat[Caption ]{\label{ref_label2}\includegraphics[width=0.4\textwidth]{plots_output/Eigen-050inv.png}}
+% \end{figure}
+
+\end{document}          
